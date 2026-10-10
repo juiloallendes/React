@@ -1,3 +1,4 @@
+
 import { ItemCounter } from "./shopping-cart/ItemCounter";
 
 interface itemInCart {
@@ -12,6 +13,9 @@ const itemInCart: itemInCart[] = [
 ];
 
 export function FirstStepApp() {
+
+ 
+
   return (
     <>
       <h1>Carrito de compras</h1>
