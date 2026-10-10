@@ -10,6 +10,7 @@ const createImageDOM = (url:string) =>{
      document.body.append(imgElement)
 }
 
+
 const getRandomUrl = async () => {
 
     const response = await fetch( 
